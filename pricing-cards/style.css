@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 1250px;
+    margin: auto;
+}
+
+.pricing-cards {
+    margin-top: 4rem;
+}
+
+.pricing-cards-heading {
+    font-size: 28px;
+    text-align: center;
+}
+
+.pricing-cards-subtext {
+    padding-top: 1rem;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.pricing-cards-flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    column-gap: 3.5rem;
+}
+
+.pricing-card {
+    border: 2px solid black;
+    width: 320px;
+    height: 550px;
+    border-radius: 7px;
+    padding: 2rem;
+}
+
+.plan-description {
+    border: 1px solid black;
+    width: 100px;
+    padding: .5rem;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.price-card-price {
+    font-size: 34px;
+    padding: 1rem 0;
+}
+
+.price-card-description {
+    padding-bottom: 1rem;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #333;
+    margin: 1rem auto;
+}
+
+.price-card-features {
+    list-style: none;
+}
+
+.price-card-feature {
+    padding: 8px 0;
+}
+
+i {
+    padding-right: 8px;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+.buy-btn {
+    background-color: white;
+    padding: 1rem;
+    width: 200px;
+    border-radius: 7px;
+    cursor: pointer;
+}
